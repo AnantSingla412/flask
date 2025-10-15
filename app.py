@@ -22,4 +22,4 @@ def hello_admin():
 
 app.run(debug=True) # with debug=True, the server will automatically reload for code changes and show a debugger in case of an error
 
-
+# to change port app.run(port = 8000) first port is available port
