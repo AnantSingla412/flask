@@ -14,4 +14,12 @@ def hello():
 def hello_2():
     return "Hello, World! This is page 2"
 
-app.run()
+
+
+@app.route('/admin')
+def hello_admin():
+    return "Hello, Admin! This is the admin page"
+
+app.run(debug=True) # with debug=True, the server will automatically reload for code changes and show a debugger in case of an error
+
+
